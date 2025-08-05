@@ -1,0 +1,100 @@
+path,event_table_name,event_rank
+page_view - search - product_view - add_to_cart - checkout - purchase,page_view,1
+page_view - search - product_view - add_to_cart - checkout - purchase,search,2
+page_view - search - product_view - add_to_cart - checkout - purchase,product_view,3
+page_view - search - product_view - add_to_cart - checkout - purchase,add_to_cart,4
+page_view - search - product_view - add_to_cart - checkout - purchase,checkout,5
+page_view - search - product_view - add_to_cart - checkout - purchase,purchase,6
+page_view - search - product_view - add_to_cart - checkout - purchase,page_view,1
+page_view - search - product_view - add_to_cart - checkout - purchase,search,2
+page_view - search - product_view - add_to_cart - checkout - purchase,product_view,3
+page_view - search - product_view - add_to_cart - checkout - purchase,add_to_cart,4
+page_view - search - product_view - add_to_cart - checkout - purchase,checkout,5
+page_view - search - product_view - add_to_cart - checkout - purchase,purchase,6
+page_view - search - product_view - add_to_cart - checkout,page_view,1
+page_view - search - product_view - add_to_cart - checkout,search,2
+page_view - search - product_view - add_to_cart - checkout,product_view,3
+page_view - search - product_view - add_to_cart - checkout,add_to_cart,4
+page_view - search - product_view - add_to_cart - checkout,checkout,5
+page_view - search - product_view,page_view,1
+page_view - search - product_view,search,2
+page_view - search - product_view,product_view,3
+page_view - search - exit,page_view,1
+page_view - search - exit,search,2
+page_view - search - exit,exit,3
+page_view - search - product_view - add_to_cart - checkout - purchase,page_view,1
+page_view - search - product_view - add_to_cart - checkout - purchase,search,2
+page_view - search - product_view - add_to_cart - checkout - purchase,product_view,3
+page_view - search - product_view - add_to_cart - checkout - purchase,add_to_cart,4
+page_view - search - product_view - add_to_cart - checkout - purchase,checkout,5
+page_view - search - product_view - add_to_cart - checkout - purchase,purchase,6
+page_view - search - product_view - add_to_cart - checkout - purchase,page_view,1
+page_view - search - product_view - add_to_cart - checkout - purchase,search,2
+page_view - search - product_view - add_to_cart - checkout - purchase,product_view,3
+page_view - search - product_view - add_to_cart - checkout - purchase,add_to_cart,4
+page_view - search - product_view - add_to_cart - checkout - purchase,checkout,5
+page_view - search - product_view - add_to_cart - checkout - purchase,purchase,6
+page_view - search - product_view - add_to_cart,page_view,1
+page_view - search - product_view - add_to_cart,search,2
+page_view - search - product_view - add_to_cart,product_view,3
+page_view - search - product_view - add_to_cart,add_to_cart,4
+page_view - search - exit,page_view,1
+page_view - search - exit,search,2
+page_view - search - exit,exit,3
+page_view - search - product_view - add_to_cart - checkout - purchase,page_view,1
+page_view - search - product_view - add_to_cart - checkout - purchase,search,2
+page_view - search - product_view - add_to_cart - checkout - purchase,product_view,3
+page_view - search - product_view - add_to_cart - checkout - purchase,add_to_cart,4
+page_view - search - product_view - add_to_cart - checkout - purchase,checkout,5
+page_view - search - product_view - add_to_cart - checkout - purchase,purchase,6
+page_view - search - product_view - add_to_cart - checkout - purchase,page_view,1
+page_view - search - product_view - add_to_cart - checkout - purchase,search,2
+page_view - search - product_view - add_to_cart - checkout - purchase,product_view,3
+page_view - search - product_view - add_to_cart - checkout - purchase,add_to_cart,4
+page_view - search - product_view - add_to_cart - checkout - purchase,checkout,5
+page_view - search - product_view - add_to_cart - checkout - purchase,purchase,6
+page_view - search - product_view - add_to_cart - exit,page_view,1
+page_view - search - product_view - add_to_cart - exit,search,2
+page_view - search - product_view - add_to_cart - exit,product_view,3
+page_view - search - product_view - add_to_cart - exit,add_to_cart,4
+page_view - search - product_view - add_to_cart - exit,exit,5
+page_view - search - exit,page_view,1
+page_view - search - exit,search,2
+page_view - search - exit,exit,3
+page_view - search - product_view - add_to_cart - checkout - purchase,page_view,1
+page_view - search - product_view - add_to_cart - checkout - purchase,search,2
+page_view - search - product_view - add_to_cart - checkout - purchase,product_view,3
+page_view - search - product_view - add_to_cart - checkout - purchase,add_to_cart,4
+page_view - search - product_view - add_to_cart - checkout - purchase,checkout,5
+page_view - search - product_view - add_to_cart - checkout - purchase,purchase,6
+page_view - search - product_view - add_to_cart - checkout - purchase,page_view,1
+page_view - search - product_view - add_to_cart - checkout - purchase,search,2
+page_view - search - product_view - add_to_cart - checkout - purchase,product_view,3
+page_view - search - product_view - add_to_cart - checkout - purchase,add_to_cart,4
+page_view - search - product_view - add_to_cart - checkout - purchase,checkout,5
+page_view - search - product_view - add_to_cart - checkout - purchase,purchase,6
+page_view - search - product_view - add_to_cart - checkout - purchase,page_view,1
+page_view - search - product_view - add_to_cart - checkout - purchase,search,2
+page_view - search - product_view - add_to_cart - checkout - purchase,product_view,3
+page_view - search - product_view - add_to_cart - checkout - purchase,add_to_cart,4
+page_view - search - product_view - add_to_cart - checkout - purchase,checkout,5
+page_view - search - product_view - add_to_cart - checkout - purchase,purchase,6
+page_view - search - product_view - add_to_cart - checkout - purchase,page_view,1
+page_view - search - product_view - add_to_cart - checkout - purchase,search,2
+page_view - search - product_view - add_to_cart - checkout - purchase,product_view,3
+page_view - search - product_view - add_to_cart - checkout - purchase,add_to_cart,4
+page_view - search - product_view - add_to_cart - checkout - purchase,checkout,5
+page_view - search - product_view - add_to_cart - checkout - purchase,purchase,6
+page_view - search - exit,page_view,1
+page_view - search - exit,search,2
+page_view - search - exit,exit,3
+page_view - search - product_view - exit,page_view,1
+page_view - search - product_view - exit,search,2
+page_view - search - product_view - exit,product_view,3
+page_view - search - product_view - exit,exit,4
+page_view - search - product_view - add_to_cart - checkout - purchase,page_view,1
+page_view - search - product_view - add_to_cart - checkout - purchase,search,2
+page_view - search - product_view - add_to_cart - checkout - purchase,product_view,3
+page_view - search - product_view - add_to_cart - checkout - purchase,add_to_cart,4
+page_view - search - product_view - add_to_cart - checkout - purchase,checkout,5
+page_view - search - product_view - add_to_cart - checkout - purchase,purchase,6

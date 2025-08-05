@@ -1,0 +1,21 @@
+path,user_id,session_id,first_event_date,step1_event,step2_event,step3_event,step4_event,step5_event,step6_event,converted_to_step2,converted_to_step3,converted_to_step4,converted_to_step5,converted_to_step6
+page_view - search - product_view - add_to_cart - checkout - purchase,1001,5001,2023-05-01,page_view,search,product_view,add_to_cart,checkout,purchase,1,1,1,1,1
+page_view - search - product_view - add_to_cart - checkout - purchase,1001,5013,2023-05-03,page_view,search,product_view,add_to_cart,checkout,purchase,1,1,1,1,1
+page_view - search - product_view - add_to_cart - checkout,1002,5002,2023-05-01,page_view,search,product_view,add_to_cart,checkout,,1,1,1,1,0
+page_view - search - product_view,1002,5003,2023-05-01,page_view,search,product_view,,,,1,1,0,0,0
+page_view - search - exit,1002,5014,2023-05-03,page_view,search,,,,,1,0,0,0,0
+page_view - search - product_view - add_to_cart - checkout - purchase,1003,5004,2023-05-01,page_view,search,product_view,add_to_cart,checkout,purchase,1,1,1,1,1
+page_view - search - product_view - add_to_cart - checkout - purchase,1003,5015,2023-05-03,page_view,search,product_view,add_to_cart,checkout,purchase,1,1,1,1,1
+page_view - search - product_view - add_to_cart,1004,5005,2023-05-01,page_view,search,product_view,add_to_cart,,,1,1,1,0,0
+page_view - search - exit,1004,5006,2023-05-01,page_view,search,,,,,1,0,0,0,0
+page_view - search - product_view - add_to_cart - checkout - purchase,1004,5016,2023-05-03,page_view,search,product_view,add_to_cart,checkout,purchase,1,1,1,1,1
+page_view - search - product_view - add_to_cart - checkout - purchase,1005,5007,2023-05-01,page_view,search,product_view,add_to_cart,checkout,purchase,1,1,1,1,1
+page_view - search - product_view - add_to_cart - exit,1005,5017,2023-05-03,page_view,search,product_view,add_to_cart,,,1,1,1,0,0
+page_view - search - exit,1006,5008,2023-05-02,page_view,search,,,,,1,0,0,0,0
+page_view - search - product_view - add_to_cart - checkout - purchase,1006,5018,2023-05-03,page_view,search,product_view,add_to_cart,checkout,purchase,1,1,1,1,1
+page_view - search - product_view - add_to_cart - checkout - purchase,1007,5009,2023-05-02,page_view,search,product_view,add_to_cart,checkout,purchase,1,1,1,1,1
+page_view - search - product_view - add_to_cart - checkout - purchase,1007,5019,2023-05-04,page_view,search,product_view,add_to_cart,checkout,purchase,1,1,1,1,1
+page_view - search - product_view - add_to_cart - checkout - purchase,1008,5010,2023-05-02,page_view,search,product_view,add_to_cart,checkout,purchase,1,1,1,1,1
+page_view - search - exit,1008,5020,2023-05-04,page_view,search,,,,,1,0,0,0,0
+page_view - search - product_view - exit,1009,5011,2023-05-02,page_view,search,product_view,,,,1,1,0,0,0
+page_view - search - product_view - add_to_cart - checkout - purchase,1010,5012,2023-05-02,page_view,search,product_view,add_to_cart,checkout,purchase,1,1,1,1,1

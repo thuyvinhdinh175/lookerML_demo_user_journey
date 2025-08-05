@@ -1,0 +1,21 @@
+user_id,session_id,path,first_event_date,last_event_date,path_length,first_event_time,last_event_time,session_duration
+1001,5001,page_view - search - product_view - add_to_cart - checkout - purchase,2023-05-01,2023-05-01,6,2023-05-01 08:15:23,2023-05-01 08:28:45,802.0
+1001,5013,page_view - search - product_view - add_to_cart - checkout - purchase,2023-05-03,2023-05-03,6,2023-05-03 08:15:23,2023-05-03 08:28:45,802.0
+1002,5002,page_view - search - product_view - add_to_cart - checkout,2023-05-01,2023-05-01,5,2023-05-01 09:05:10,2023-05-01 09:15:45,635.0
+1002,5003,page_view - search - product_view,2023-05-01,2023-05-01,3,2023-05-01 14:30:10,2023-05-01 14:35:15,305.0
+1002,5014,page_view - search - exit,2023-05-03,2023-05-03,3,2023-05-03 09:05:10,2023-05-03 09:10:15,305.0
+1003,5004,page_view - search - product_view - add_to_cart - checkout - purchase,2023-05-01,2023-05-01,6,2023-05-01 10:15:23,2023-05-01 10:28:45,802.0
+1003,5015,page_view - search - product_view - add_to_cart - checkout - purchase,2023-05-03,2023-05-03,6,2023-05-03 10:15:23,2023-05-03 10:28:45,802.0
+1004,5005,page_view - search - product_view - add_to_cart,2023-05-01,2023-05-01,4,2023-05-01 11:05:10,2023-05-01 11:12:30,440.0
+1004,5006,page_view - search - exit,2023-05-01,2023-05-01,3,2023-05-01 15:30:10,2023-05-01 15:35:15,305.0
+1004,5016,page_view - search - product_view - add_to_cart - checkout - purchase,2023-05-03,2023-05-03,6,2023-05-03 11:05:10,2023-05-03 11:18:20,790.0
+1005,5007,page_view - search - product_view - add_to_cart - checkout - purchase,2023-05-01,2023-05-01,6,2023-05-01 12:15:23,2023-05-01 12:28:45,802.0
+1005,5017,page_view - search - product_view - add_to_cart - exit,2023-05-03,2023-05-03,5,2023-05-03 12:15:23,2023-05-03 12:25:18,595.0
+1006,5008,page_view - search - exit,2023-05-02,2023-05-02,3,2023-05-02 09:05:10,2023-05-02 09:10:15,305.0
+1006,5018,page_view - search - product_view - add_to_cart - checkout - purchase,2023-05-03,2023-05-03,6,2023-05-03 13:05:10,2023-05-03 13:18:20,790.0
+1007,5009,page_view - search - product_view - add_to_cart - checkout - purchase,2023-05-02,2023-05-02,6,2023-05-02 10:15:23,2023-05-02 10:28:45,802.0
+1007,5019,page_view - search - product_view - add_to_cart - checkout - purchase,2023-05-04,2023-05-04,6,2023-05-04 10:15:23,2023-05-04 10:28:45,802.0
+1008,5010,page_view - search - product_view - add_to_cart - checkout - purchase,2023-05-02,2023-05-02,6,2023-05-02 11:05:10,2023-05-02 11:18:20,790.0
+1008,5020,page_view - search - exit,2023-05-04,2023-05-04,3,2023-05-04 11:05:10,2023-05-04 11:10:15,305.0
+1009,5011,page_view - search - product_view - exit,2023-05-02,2023-05-02,4,2023-05-02 12:15:23,2023-05-02 12:22:30,427.0
+1010,5012,page_view - search - product_view - add_to_cart - checkout - purchase,2023-05-02,2023-05-02,6,2023-05-02 13:05:10,2023-05-02 13:18:20,790.0

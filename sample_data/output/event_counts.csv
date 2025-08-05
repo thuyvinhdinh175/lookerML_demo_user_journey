@@ -1,0 +1,8 @@
+event_table_name,count
+page_view,20
+search,20
+product_view,16
+add_to_cart,14
+checkout,12
+purchase,11
+exit,6

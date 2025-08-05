@@ -1,0 +1,8 @@
+path,user_id,session_id
+page_view - search - product_view - add_to_cart - checkout - purchase,1001,5001
+page_view - search - product_view - add_to_cart - checkout,1002,5002
+page_view - search - product_view,1002,5003
+page_view - search - exit,1002,5014
+page_view - search - product_view - add_to_cart,1004,5005
+page_view - search - product_view - add_to_cart - exit,1005,5017
+page_view - search - product_view - exit,1009,5011
