@@ -55,6 +55,7 @@ graph TD
     classDef title fill:#1a1a2e,stroke:#fff,stroke-width:4px,color:#fff;
     
     class A,B,C,D,E,F,G,H,I default;
+
 ```
 1. **Data Source Layer**: 
    - `base_events` - Base template for event data
