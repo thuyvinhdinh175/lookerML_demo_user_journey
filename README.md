@@ -23,8 +23,9 @@ The data model consists of several interconnected views that work together to cr
 5. **Path Analysis**: Tools to analyze specific segments of user journeys
 6. **Funnel Analysis**: Conversion tracking between sequential events
 
-## Architecture
+## System Architecture Diagram
 The project follows a layered architecture:
+
 ```mermaid
 graph TD
     subgraph "System Architecture"
@@ -57,6 +58,7 @@ graph TD
     class A,B,C,D,E,F,G,H,I default;
 
 ```
+### Layered Architecture Components
 1. **Data Source Layer**: 
    - `base_events` - Base template for event data
    - `global_events`, `us_events`, `uk_events` - Country-specific event sources
