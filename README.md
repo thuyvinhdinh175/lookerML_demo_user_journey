@@ -25,7 +25,7 @@ The data model consists of several interconnected views that work together to cr
 
 ## Architecture
 The project follows a layered architecture:
-```
+```mermaid
 graph TD
     subgraph "System Architecture"
     
