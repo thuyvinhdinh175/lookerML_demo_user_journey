@@ -4,9 +4,9 @@
 
 This data dictionary provides definitions for all dimensions, measures, and parameters used in the User Journey Path Analysis framework. Use this as a reference when working with the model.
 
-## Base Layer
+## Base Templates
 
-### base_all_events
+### base_events
 
 | Field | Type | Description |
 |-------|------|-------------|
@@ -17,10 +17,9 @@ This data dictionary provides definitions for all dimensions, measures, and para
 | event_time | Dimension Group | When the event occurred |
 | event_date | Dimension | Date of the event (for incremental processing) |
 | event_hour | Dimension | Hour of the event (for time-based analysis) |
+| country | Dimension | Country of the user |
 
-## Processing Layer
-
-### all_unique_events
+### base_unique_events
 
 | Field | Type | Description |
 |-------|------|-------------|
@@ -31,6 +30,54 @@ This data dictionary provides definitions for all dimensions, measures, and para
 | event_rank | Dimension | Sequential rank of the event within the session |
 | event_time | Dimension Group | When the event occurred |
 | event_date | Dimension | Date of the event (for incremental processing) |
+| country | Dimension | Country of the user |
+
+### base_session_paths
+
+| Field | Type | Description |
+|-------|------|-------------|
+| user_id | Dimension | Unique identifier for the user |
+| session_id | Dimension | Unique identifier for the session |
+| path | Dimension | Complete path of events in the session |
+| path_length | Dimension | Number of events in the path |
+| first_event_time | Dimension Group | When the first event in the path occurred |
+| last_event_time | Dimension Group | When the last event in the path occurred |
+| session_duration | Dimension | Duration of the session in seconds |
+| average_session_duration | Measure | Average duration of sessions in seconds |
+| count | Measure | Count of unique session paths |
+| average_path_length | Measure | Average number of events in paths |
+| country | Dimension | Country of the user |
+
+### base_exploded_paths
+
+| Field | Type | Description |
+|-------|------|-------------|
+| path | Dimension | Complete path string |
+| event_table_name | Dimension | Individual event name |
+| event_rank | Dimension | Position of the event in the path |
+| country | Dimension | Country of the user |
+
+### base_path_analyzer
+
+| Field | Type | Description |
+|-------|------|-------------|
+| first_event_selector | Filter | The name of the event starting the path you would like to analyze |
+| last_event_selector | Filter | The name of the event ending the path you would like to analyze |
+| path | Dimension | Complete path string (Primary Key) |
+| step_1 through step_7 | Dimensions | Individual events in the path sequence |
+| total_sessions | Measure | Total sessions with this path |
+
+## Data Source Layer
+
+### global_events, us_events, uk_events
+
+These views extend base_events and provide country-specific event data.
+
+## Processing Layer
+
+### global_unique_events, us_unique_events, uk_unique_events
+
+These views extend base_unique_events and provide country-specific unique event data.
 
 ### event_counts
 
@@ -50,20 +97,9 @@ This data dictionary provides definitions for all dimensions, measures, and para
 
 ## Path Construction Layer
 
-### session_paths
+### global_session_paths, us_session_paths, uk_session_paths
 
-| Field | Type | Description |
-|-------|------|-------------|
-| user_id | Dimension | Unique identifier for the user |
-| session_id | Dimension | Unique identifier for the session |
-| path | Dimension | Complete path of events in the session |
-| path_length | Dimension | Number of events in the path |
-| first_event_time | Dimension Group | When the first event in the path occurred |
-| last_event_time | Dimension Group | When the last event in the path occurred |
-| session_duration | Dimension | Duration of the session in seconds |
-| average_session_duration | Measure | Average duration of sessions in seconds |
-| count | Measure | Count of unique session paths |
-| average_path_length | Measure | Average number of events in paths |
+These views extend base_session_paths and provide country-specific session path data.
 
 ### example_paths
 
@@ -73,25 +109,19 @@ This data dictionary provides definitions for all dimensions, measures, and para
 | user_id | Dimension | Example user with this path |
 | session_id | Dimension | Example session with this path |
 
-### exploded_paths
+### global_exploded_paths, us_exploded_paths, uk_exploded_paths
 
-| Field | Type | Description |
-|-------|------|-------------|
-| path | Dimension | Complete path string |
-| event_table_name | Dimension | Individual event name |
-| event_rank | Dimension | Position of the event in the path |
+These views extend base_exploded_paths and provide country-specific exploded path data.
 
 ## Analysis Layer
 
-### path_analyzer
+### global_path_analyzer, us_path_analyzer, uk_path_analyzer
+
+These views extend base_path_analyzer and provide country-specific path analysis tools.
 
 | Field | Type | Description |
 |-------|------|-------------|
-| first_event_selector | Filter | The name of the event starting the path you would like to analyze |
-| last_event_selector | Filter | The name of the event ending the path you would like to analyze |
-| path | Dimension | Complete path string (Primary Key) |
-| step_1 through step_7 | Dimensions | Individual events in the path sequence |
-| total_sessions | Measure | Total sessions with this path |
+| country | Dimension | Country of the user |
 
 ### path_counts
 

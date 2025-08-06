@@ -1,18 +1,6 @@
-view: base_all_events {
-  derived_table: {
-    # Use datagroup
-    datagroup_trigger: daily_refresh
-    
-    sql: (
-      SELECT 
-        *,
-        DATE(time) as event_date,
-        EXTRACT(HOUR FROM time) as event_hour
-      FROM main_production.all_events
-      WHERE time > CURRENT_DATE - INTERVAL '90 days'
-    ) ;;
-  }
-
+view: base_events {
+  extension: required
+  
   # Add dimensions for the base event data
   dimension: user_id {
     type: number
@@ -66,5 +54,12 @@ view: base_all_events {
     type: number
     sql: ${TABLE}.event_hour ;;
     description: "Hour of the event (for time-based analysis)"
+  }
+  
+  # Add country dimension
+  dimension: country {
+    type: string
+    sql: ${TABLE}.country ;;
+    description: "Country of the user"
   }
 }
