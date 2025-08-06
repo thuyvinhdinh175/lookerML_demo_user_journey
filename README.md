@@ -25,7 +25,37 @@ The data model consists of several interconnected views that work together to cr
 
 ## Architecture
 The project follows a layered architecture:
-
+```
+graph TD
+    subgraph "System Architecture"
+    
+    A["Data Ingestion<br/>(Database Events)"] -->|Raw Events| B
+    
+    B["Validator Layer<br/>(Deduplication + Ranking)"] -->|Unique Events| C
+    B -->|Event Metrics| D
+    
+    C["Path Construction<br/>(Session Paths)"] -->|Complete Paths| E
+    C -->|Path Breakdown| F
+    
+    D["Event Analysis<br/>(Counts + Metrics)"] -->|Event Suggestions| G
+    
+    E["Path Analysis<br/>(Path Analyzers)"] -->|Path Segments| G
+    
+    F["Exploded Paths<br/>(Event Extraction)"] -->|Individual Events| G
+    
+    G["Analysis Tools<br/>(Path + Funnel Analysis)"] -->|Visualizations| H
+    
+    H["Looker Explores<br/>(Global, US, UK)"] -->|Interactive Analysis| I
+    
+    I["Dashboards<br/>(Looker / LookML)"]
+    
+    end
+    
+    classDef default fill:#1a1a2e,stroke:#fff,stroke-width:2px,color:#fff;
+    classDef title fill:#1a1a2e,stroke:#fff,stroke-width:4px,color:#fff;
+    
+    class A,B,C,D,E,F,G,H,I default;
+```
 1. **Data Source Layer**: 
    - `base_events` - Base template for event data
    - `global_events`, `us_events`, `uk_events` - Country-specific event sources
